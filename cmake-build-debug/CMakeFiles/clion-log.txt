@@ -1,0 +1,25 @@
+"C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.2/bin/ninja/win/ninja.exe" -G Ninja C:\Sandbox\polevoy_d_v
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: mingw
+-- OpenCV STATIC: OFF
+CMake Warning at C:/Sandbox/opencv/build/OpenCVConfig.cmake:190 (message):
+  Found OpenCV Windows Pack but it has no binaries compatible with your
+  configuration.
+
+  You should manually point CMake variable OpenCV_DIR to your build of OpenCV
+  library.
+Call Stack (most recent call first):
+  CMakeLists.txt:14 (find_package)
+
+
+CMake Error at CMakeLists.txt:14 (find_package):
+  Found package configuration file:
+
+    C:/Sandbox/opencv/build/OpenCVConfig.cmake
+
+  but it set OpenCV_FOUND to FALSE so package "OpenCV" is considered to be
+  NOT FOUND.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Sandbox/polevoy_d_v/cmake-build-debug/CMakeFiles/CMakeOutput.log".
