@@ -41,8 +41,7 @@ int main() {
   std::cout << "G_2 timer = " << timer.getTimeSec() << std::endl;
 
   
-  // save result
-  //cv::imwrite("lab01.png", I_1);
+  
   cv::imshow("I_1", I_1);
   cv::imshow("G_1", G_1);
   cv::imshow("G_2", G_2);
