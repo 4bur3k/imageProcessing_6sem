@@ -95,13 +95,13 @@ cv::Mat createHistogram(cv::Mat image) {
 	for (int i = 0; i < 255; i++) {
 		cv::line(histogram, cv::Point(i, histogram.rows - greenPixels[i]),
 			cv::Point(i + 1, histogram.rows - greenPixels[i + 1]),
-			cv::Scalar(255, 0, 0), 1, 8, 0);
+			cv::Scalar(0, 255, 0), 1, 8, 0);
 	}
 
 	for (int i = 0; i < 255; i++) {
 		cv::line(histogram, cv::Point(i, histogram.rows - redPixels[i]),
 			cv::Point(i + 1, histogram.rows - redPixels[i + 1]),
-			cv::Scalar(255, 0, 0), 1, 8, 0);
+			cv::Scalar(0, 0, 255), 1, 8, 0);
 	}
 
 
