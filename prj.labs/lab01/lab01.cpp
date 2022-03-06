@@ -5,6 +5,8 @@ int main() {
   // draw dummy image
   I_1 = 0;
 
+  cv::imshow("dmmaopd", I_1);
+
   cv::TickMeter timer;
 
   //making single channel picture with gradient
