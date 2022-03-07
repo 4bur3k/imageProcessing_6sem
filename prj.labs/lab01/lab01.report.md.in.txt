@@ -1,5 +1,5 @@
 ## Работа 1. Исследование гамма-коррекции
-автор: Полевой Д.В.
+автор: Кузнецов
 дата: @time_stemp@
 
 <!-- url: https://github.com/4bureck/imageProcessing_6sem/tree/main/prj.labs/lab01 -->

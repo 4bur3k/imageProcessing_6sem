@@ -43,10 +43,14 @@ int main() {
   std::cout << "G_2 timer = " << timer.getTimeSec() << std::endl;
 
   
-  
-  cv::imshow("I_1", I_1);
-  cv::imshow("G_1", G_1);
-  cv::imshow("G_2", G_2);
+  cv::Mat resoult;
+  cv:vconcat(I_1, G_1, resoult);
+  cv::vconcat(resoult, G_2, resoult);
+
+  cv::imshow("lab01.png", resoult);
+  cv::imwrite("lab01.png", resoult);
+
+
 
   cv::waitKey(0);
 }

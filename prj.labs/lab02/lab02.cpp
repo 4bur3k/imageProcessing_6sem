@@ -118,7 +118,7 @@ int main() {
 	params.push_back(cv::IMWRITE_JPEG_QUALITY);
 	params.push_back(25);
 
-	cv::imwrite("cross.jpeg", image_png, params);
+	cv::imwrite("Cross.jpeg", image_png, params);
 
 	cv::Mat image_jpeg = cv::imread("D:/Sandbox/lab1_2/build.vs.2022/prj.labs/lab02/cross.jpeg");
 
@@ -131,8 +131,8 @@ int main() {
 
 	cv::Mat mosaica_jpeg;
 	mosaica_jpeg = channelVizualization(image_jpeg);
-	cv::imshow("Channels.jpeg", mosaica_jpeg);
-	cv::imwrite("Channels.jpeg", mosaica_jpeg);
+	cv::imshow("Channels_jpeg.png", mosaica_jpeg);
+	cv::imwrite("Channels_jpeg.png", mosaica_jpeg);
 
 
 	cv::Mat histogram_png, histogram_jpeg;
@@ -151,8 +151,8 @@ int main() {
 
 	cv::hconcat(concatResoults1, concatResoults2, resoult);
 
-	cv::imshow("histograma", resoult);
-	cv::imwrite("histograma.png", resoult);
+	cv::imshow("Histograma", resoult);
+	cv::imwrite("Histograma.png", resoult);
 
 	cv::waitKey(0);
 }
