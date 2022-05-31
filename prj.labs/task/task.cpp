@@ -1,7 +1,6 @@
 #include <opencv2/opencv.hpp>
 
 int main() {
-	
 	cv::Mat SingleChanelImame(300, 450, CV_32FC1);
 	for (int i = 0; i < 150; i++) {
 		for (int j = 0; j < 150; j++) {
